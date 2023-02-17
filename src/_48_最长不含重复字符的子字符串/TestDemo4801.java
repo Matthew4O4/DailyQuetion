@@ -1,6 +1,6 @@
 package _48_最长不含重复字符的子字符串;
 
-import java.util.*;
+import java.util.HashSet;
 
 /**
  * @Description: -
@@ -32,7 +32,8 @@ public class TestDemo4801 {
 
     /**
      * 最长不含 重复字符的 子段
-     * pwawkew
+     * 执行耗时:?? ms, 击败了3.78% 的Java用户
+     * 内存消耗:?? MB,击败了25.89% 的Java用户
      *
      * @param s
      * @return
@@ -63,4 +64,6 @@ public class TestDemo4801 {
         System.out.println(testDemo48.lengthOfLongestSubstring("aab"));
         System.out.println(testDemo48.lengthOfLongestSubstring("awwkaw"));
     }
+
+
 }
