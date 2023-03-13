@@ -21,6 +21,8 @@ public class Test64 {
         // 分割到0  并且加根
         boolean b = n > 0 && (n += sumNums(n - 1)) > 0;
         return n;
+
+         //大萨达多
     }
 
     public static void main(String[] args) {
